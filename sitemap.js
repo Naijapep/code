@@ -1,30 +1,12 @@
-/*
-var toc_config = {
-	url: 'https://www.twistblogg.com',
-	containerId: 'tb-sitemap',
-	showNew: 15,
-	newText: ' <strong style="font-weight:normal;font-style:normal;color:#fff;font-size:11px;background:#5c5a78;padding:1px 6px 3px 6px;line-height:normal;float:right;border-radius:3px;">New!</strong>',
-	sortAlphabetically: {
-		thePanel: true,
-		theList: true
-	},
-	maxResults: 9999,
-	activePanel: 1,
-	slideSpeed: {
-		down: 400,
-		up: 400
-	},
-	slideEasing: {
-		down: null,
-		up: null
-	},
-	slideCallback: {
-		down: function() {},
-		up: function() {}
-	},
-	clickCallback: function() {},
-	jsonCallback: '_toc',
-	delayLoading: 0
-};
-*/
-!function(e,o){var t=o.getElementById(toc_config.containerId),c=o.getElementsByTagName("head")[0],n=[];e[toc_config.jsonCallback]=function(e){for(var o,c,i=e.feed.entry,a=e.feed.category,l="",s=0,d=a.length;d>s;++s)n.push(a[s].term);for(var r=0,f=i.length;f>r;++r)(toc_config.showNew||toc_config.showNew>0)&&r<toc_config.showNew+1&&(i[r].title.$t+=" %new%");i=toc_config.sortAlphabetically.theList?i.sort(function(e,o){return e.title.$t.localeCompare(o.title.$t)}):i,toc_config.sortAlphabetically.thePanel&&n.sort();for(var g=0,h=n.length;h>g;++g){l+='<h3 class="toc-header">'+n[g]+"</h3>",l+='<div class="toc-content"><ol>';for(var _=0,p=i.length;p>_;++_){o=i[_].title.$t;for(var w=0,u=i[_].link.length;u>w;++w)if("alternate"==i[_].link[w].rel){c=i[_].link[w].href;break}for(var v=0,m=i[_].category.length;m>v;++v)n[g]==i[_].category[v].term&&(l+='<li><a href="'+c+'">'+o.replace(/ \%new\%$/,"")+"</a>"+(o.match(/\%new\%/)?" "+toc_config.newText:"")+"</li>")}l+="</ol></div>"}t.innerHTML=l,"undefined"!=typeof jQuery&&($("#"+toc_config.containerId+" .toc-content").hide(),$("#"+toc_config.containerId+" .toc-header").click(function(){$(this).hasClass("active")||(toc_config.clickCallback(this),$("#"+toc_config.containerId+" .toc-header").removeClass("active").next().slideUp(toc_config.slideSpeed.up,toc_config.slideEasing.up,toc_config.slideCallback.up),$(this).addClass("active").next().slideDown(toc_config.slideSpeed.down,toc_config.slideEasing.down,toc_config.slideCallback.down))}).eq(toc_config.activePanel-1).addClass("active").next().slideDown(toc_config.slideSpeed.down,toc_config.slideEasing.down,toc_config.slideCallback.down))};var i=o.createElement("script");i.src=toc_config.url.replace(/\/$/,"")+"/feeds/posts/summary?alt=json-in-script&max-results="+toc_config.maxResults+"&callback="+toc_config.jsonCallback,"onload"==toc_config.delayLoading?e.onload=function(){c.appendChild(i)}:e.setTimeout(function(){c.appendChild(i)},toc_config.delayLoading)}(window,document);
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-s3kuUoVBLD4/Xx1if5ogHbI/AAAAAAAAAUU/EshioquzFfYPf2n49rUhm0_kjdeSMUnFACLcBGAsYHQ/s1600/Sitemap%2BArlina%2BCode.png" style="margin-left: 1em; margin-right: 1em;"><img alt="Sitemap Arlina Code" class="lazyload" style="border: none;" data-original-height="444" data-original-width="1200" src="https://3.bp.blogspot.com/-s3kuUoVBLD4/Xx1if5ogHbI/AAAAAAAAAUU/EshioquzFfYPf2n49rUhm0_kjdeSMUnFACLcBGAsYHQ/s1600/Sitemap%2BArlina%2BCode.png" title="Sitemap Arlina Code" /></a></div>
+
+<div id="bp_toc">
+</div>
+<script src="https://cdn.rawgit.com/Arlina-Design/redvision/master/daftar-isi-simple.js" type="text/javascript"></script> <script src="/feeds/posts/summary?alt=json-in-script&amp;max-results=99999&amp;callback=loadtoc" type="text/javascript"></script>
+<style scoped="" type="text/css">#comments,#Label1,#FollowByEmail1{display:none}#bp_toc{color:#000;margin:0 auto;max-height:686px;overflow:hidden;overflow-y:auto}span.toc-note{margin:0 auto 25px auto;text-align:center;line-height:normal;display:table;position:relative;overflow:hidden;font-size:14px;padding:10px 20px;background:#007bff;background-image:linear-gradient(50deg,#ff4169,#8b41f6);background-size:100%;color:#fff;border-radius:99em;font-weight:500;transition:all .3s}span.toc-note:hover{background-size:200%}.toc-header-col1{padding:10px;background-color:#f5f5f5;width:250px}.toc-header-col2{padding:10px;background-color:#f5f5f5;width:75px}.toc-header-col3{padding:10px;background-color:#fff;width:125px}#bp_toc td.toc-header-col1,#bp_toc td.toc-header-col2,#bp_toc td.toc-header-col3{border:1px solid rgba(0,0,0,0.05);background:#fff}#bp_toc td.toc-header-col1{}#bp_toc td.toc-header-col2{}#bp_toc td.toc-header-col3{}.post td{background:transparent}#bp_toc td.toc-entry-col1,#bp_toc td.toc-entry-col2,#bp_toc td.toc-entry-col3{border:1px solid rgba(0,0,0,0.05)}#bp_toc td a{background:transparent;color:#222;float:none;border-radius:0;padding:0;font-size:100%;display:initial;box-shadow:none}#bp_toc td a:hover{color:#0984e3}.toc-header-col1 a:link,.toc-header-col1 a:visited,.toc-header-col2 a:link,.toc-header-col2 a:visited,.toc-header-col3 a:link,.toc-header-col3 a:visited{font-size:13px;text-decoration:none;color:#aaa;font-weight:500;letter-spacing:0.5px}.toc-header-col1 a:hover,.toc-header-col2 a:hover,.toc-header-col3 a:hover{text-decoration:none}.toc-entry-col1,.toc-entry-col2,.toc-entry-col3{padding:10px 5px;font-size:90%}.toc-entry-col1 a,.toc-entry-col2 a,.toc-entry-col3 a{color:#000}.toc-entry-col1 a:hover,.toc-entry-col2 a:hover,.toc-entry-col3 a:hover{color:#3498db}#bp_toc table{width:100%;margin:0 auto;counter-reset:rowNumber}.toc-entry-col1{counter-increment:rowNumber}#bp_toc table tr td.toc-entry-col1:first-child::before{content:counter(rowNumber);display:inline-block;min-width:38px;margin-right:.7em;background:#fc5c65;color:#fff;border-radius:99em;font-weight:500;text-align:center;font-size:12px;padding:0;line-height:1.7}
+#bp_toc td.toc-entry-col1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:400px}
+#bp_toc::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}#bp_toc::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15);border-radius:10px}#bp_toc::-webkit-scrollbar-track{background-color:transparent}#bp_toc::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.25)}
+@media screen and (max-width:768px) {
+#bp_toc td.toc-entry-col1{white-space:normal;overflow:visible;text-overflow:initial;max-width:100%}#bp_toc td.toc-header-col2,#bp_toc td.toc-header-col3,#bp_toc td.toc-entry-col2,#bp_toc td.toc-entry-col3,#bp_toc table tr td.toc-entry-col1:first-child::before{display:none}}
+</style> 
